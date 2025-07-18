@@ -1,0 +1,117 @@
+/* A simple css reset */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* The Font Family- Really important!! */
+    font-family: Italic, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+}
+
+/* reset for images to ensure they ar 100% of the parent container width */
+img {
+    width: 100%;
+} 
+
+/* The hero section styling- use your OWN Hero Image URL here */
+.hero {
+    background-image: url('https://cdn.pixabay.com/photo/2021/12/09/20/43/orange-background-6859059_960_720.jpg');
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+/* BIG text styling for the hero section text */
+.hero-text {
+    font-size: 4em;
+    font-weight: normal;
+    text-shadow: 5px 0 #ff6600, -5px 0 #ff6600, 0 5px #ff6600, 0 -5px #ff6600,
+             5px 5px #ff6600, -5px -5px #ff6600, 5px -5px #ff6600, -5px 5px #ff6600;
+    
+}
+
+/* nice big font on a banner style background */
+.topic-title{
+    color: white;
+    font-size: 2em;
+    padding: 0.1em 3em;
+    text-shadow: 5px 0 #ff6600, -5px 0 #ff6600, 0 5px #ff6600, 0 -5px #ff6600,
+             5px 5px #ff6600, -5px -5px #ff6600, 5px -5px #ff6600, -5px 5px #ff6600;
+    background-color: rgb(255, 131, 15);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+} 
+
+/* Three column grid with a nice big gap */
+.topic-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6em;
+    /* bring the whole section in off the sides of the page */
+    width: 1000px;
+    /* top margin of 3em and center right/left */
+    margin: 3em auto;
+}
+
+/* Styling for the individual topic cards rounded edges background color and a drop shadow */
+.topic-card{
+    background-color: rgb(255, 158, 46);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 0.5em;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+ 
+/* Styling for the topic card titles */
+.topic-card-text{
+    font-size: 1.5em;
+    margin-bottom: 0em;  
+    /* center align text */
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 3px 0 #ff802b, -3px 0 #ff802b, 0 3px #ff802b, 0 -3px #ff802b,
+             2px 2px #ff802b, -2px -2px #ff802b, 2px -2px #ff802b, -2px 2px #ff802b;
+}
+.topic-card-text2{
+    padding-top: 117.5px;
+    font-size: 1.5em;
+    margin-bottom: 0em;  
+    /* center align text */
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 3px 0 #ff802b, -3px 0 #ff802b, 0 3px #ff802b, 0 -3px #ff802b,
+             2px 2px #ff802b, -2px -2px #ff802b, 2px -2px #ff802b, -2px 2px #ff802b;
+}
+.topic-card-text3{
+    padding-top: 70px;
+    font-size: 1.5em;
+    margin-bottom: 0em;  
+    /* center align text */
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 3px 0 #ff802b, -3px 0 #ff802b, 0 3px #ff802b, 0 -3px #ff802b,
+             2px 2px #ff802b, -2px -2px #ff802b, 2px -2px #ff802b, -2px 2px #ff802b;
+}
+/* Styling for a footer section to take a bit of spcae at the bottom of the page */
+.footer{
+    background-color: rgb(255, 131, 15);
+    color: white;
+    text-align: right;
+    padding: 3em 3em;
+    font-weight: normal;
+    text-shadow: 2px 0 #ff6600, -2px 0 #ff6600, 0 2px #ff6600, 0 -2px #ff6600,
+             1px 1px #ff6600, -1px -1px #ff6600, 1px -1px #ff6600, -1px 1px #ff6600;
+}
+
+h1
+{
+    font-weight: normal;
+}
